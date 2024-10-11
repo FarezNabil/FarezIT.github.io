@@ -1,0 +1,121 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#fdaf05
+}
+
+.para {
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.background{
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.ohlins.com/storage/91BEBE4B4025063602B93826A62EB8283458FD3C0C2F20701B351A7D4914D087/4dd156c009524d9a8504f3e8ef6e2ab0/jpg/media/8093980aa0494689842f958afde74e30/GP.jpghttps://www.ohlins.com/storage/91BEBE4B4025063602B93826A62EB8283458FD3C0C2F20701B351A7D4914D087/4dd156c009524d9a8504f3e8ef6e2ab0/jpg/media/8093980aa0494689842f958afde74e30/GP.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+
+
+
+#home {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar {
+    background-color: #ffffff ;
+    padding: 10px;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: blue;
+}
+
+#writer {
+    width: 80spx;
+    margin: auto;
+    
+    
+}
+
+#list-writer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    
+    
+}
+
+.box {
+    width: 25%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 300px;
+    border: 1px solid black;
+    padding: px;
+    text-align: left;
+    vertical-align: auto;
+    gap: 95px;
+}
+
+@media screen and (max-width: 600px) {
+    #hobby-container {
+        display: flex;
+        padding: auto 0px;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+    
